@@ -57,6 +57,10 @@ li {
 
 /* header -------------*/
 #header {
+  height: 80px;
+  background-color: #333;
+}
+#header {
   max-width: 100%;
   height: 60vh;
   background-image: url(/images/pc1.jpg);
@@ -66,7 +70,7 @@ li {
   margin: 30px 10px;
 
 }
-#header .header-mask {
+#header .header-inner {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -95,7 +99,7 @@ nav li a:hover {
   border-bottom: 2px solid rgb(19, 12, 59);
 }
 /*h1 -----------*/
-.site-title {
+.mv-site-title {
   padding: 0 10px;
   text-align: center;
   position: absolute;
@@ -108,12 +112,12 @@ nav li a:hover {
   transform: translate(20%, -20%);
   filter: drop-shadow(1px 1px 10px #111);
 }
-#header .header-box {
+.mv-inner {
   align-items: center;
   background-color: rgba(14, 54, 117, 0.562);
   opacity: 0.9;
 }
-#header .header-box p {
+ .mv-site-txt {
   color: #aaa;
   font-size: 2.4rem;
   position: absolute;
